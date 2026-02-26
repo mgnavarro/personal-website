@@ -67,57 +67,168 @@ const HIGHLIGHTS = [
 
 const FEATURED = [
   {
-    title: "VVVX–GalCen KMOS Public Survey",
+    title: "Tracing the staR and plAnet formation in different Circumstellar Environments (TRACE)",
+    kind: "Research Project",
+    year: "2025–present",
+    href: "/trace.html",
+    blurb:
+      "TRACE is an international project investigating how environmental conditions regulate protoplanetary disk dispersal and star–planet formation. By comparing nearby young clusters with distant Galactic and low-metallicity environments, the project explores how metallicity, density, and radiation fields shape disk evolution and mass accretion. TRACE combines proprietary JWST, LBT, and VLT data and serves as a pathfinder for future VLT and ELT instrumentation.",
+  },
+  {
+    title: "VVVX–GalCen Public Survey",
     kind: "Survey / Collaboration",
-    year: "2025–2028",
-    blurb:
-      "Near-IR spectroscopy across the Galactic Center environment to map stellar populations, kinematics, and extinction in extreme conditions.",
-    tags: ["KMOS", "VVVX", "Bulge", "Spectroscopy"],
+    year: "2025–present",
     href: "#",
+    blurb:
+      "Near-infrared spectroscopic exploration of the Milky Way based on VVV/VVVX data. As PI of the YSO science area, I lead studies of mass accretion and young stellar populations in high-extinction regions. The survey integrates photometry and KMOS spectroscopy to characterise stellar populations, star formation activity, and the structure of the Galactic bulge.",
   },
   {
-    title: "JWST: H₂ in Class 0 outflows",
-    kind: "JWST Analysis",
-    year: "2024–present",
-    blurb:
-      "Rotational diagnostics and shock constraints in the innermost jet-launching regions using NIRSpec IFU and MIRI mosaics.",
-    tags: ["JWST", "NIRSpec", "MIRI", "Shocks"],
+    title: "JWST Data Analysis & Instrument Support",
+    kind: "Space Telescope Program",
+    year: "2022–present",
     href: "#",
-  },
-  {
-    title: "Bulge stellar populations",
-    kind: "Milky Way",
-    year: "ongoing",
     blurb:
-      "Population synthesis & photometric–spectroscopic synergy to characterize bulge formation channels and metallicity gradients.",
-    tags: ["Bulge", "Populations", "Extinction", "Kinematics"],
-    href: "#",
+      "Active contributor to the Italian JWST Support Center, with primary expertise in MIRI data reduction and analysis. I have reduced and analysed JWST data for multiple research groups using diverse methodological approaches. My current work involves scientific exploitation of JWST observations across NIRSpec, MIRI, and NIRCam, focusing on young stellar objects, jets, outflows, and embedded environments.",
   },
 ];
 
 const PUBLICATIONS = [
   {
     year: "2026",
-    title: "Paper title goes here",
-    venue: "Journal / arXiv",
-    authors: "Navarro, M.G.; et al.",
-    href: "#",
+    title:
+      "Spectroscopic Follow-up of Gaia Alerted Young Stellar Object Variables: The Large Binocular Telescope View",
+    venue: "ApJ 998, 54",
+    authors: "Giannini et al. (incl. Navarro, M.G.)",
+    href: "https://ui.adsabs.harvard.edu/abs/2026ApJ...998...54G",
+  },
+  {
+    year: "2026",
+    title: "A Near-Infrared Stellar Atlas of the Galactic Plane from the VVVX Survey",
+    venue: "arXiv:2601.19708",
+    authors: "Alonso-García et al. (incl. Navarro, M.G.)",
+    href: "https://ui.adsabs.harvard.edu/abs/2026arXiv260119708A",
+  },
+  {
+    year: "2026",
+    title:
+      "JOYS: JWST MIRI/MRS Spectra of the Inner 500 au Region of the L1527 IRS Bipolar Outflow",
+    venue: "arXiv:2601.17820",
+    authors: "Devaraj et al. (incl. Navarro, M.G.)",
+    href: "https://ui.adsabs.harvard.edu/abs/2026arXiv260117820D",
   },
   {
     year: "2025",
-    title: "Paper title goes here",
-    venue: "Journal / arXiv",
-    authors: "Navarro, M.G.; et al.",
-    href: "#",
+    title: "PROJECT-J: The Shocking H₂ Outflow from HH 46",
+    venue: "ApJ 995, 199",
+    authors: "Navarro et al.",
+    href: "https://ui.adsabs.harvard.edu/abs/2025ApJ...995..199N",
+  },
+  {
+    year: "2025",
+    title:
+      "The Interstellar Medium in I Zw 18 Seen with JWST/MIRI. II. Warm Molecular Hydrogen and Warm Dust",
+    venue: "ApJ 993, 84",
+    authors: "Hunt et al. (incl. Navarro, M.G.)",
+    href: "https://ui.adsabs.harvard.edu/abs/2025ApJ...993...84H",
+  },
+  {
+    year: "2025",
+    title:
+      "Protostars at Subsolar Metallicity: First Detection of Large Solid-state Complex Organic Molecules in the LMC",
+    venue: "ApJL 992, L30",
+    authors: "Sewiło et al. (incl. Navarro, M.G.)",
+    href: "https://ui.adsabs.harvard.edu/abs/2025ApJ...992L..30S",
+  },
+  {
+    year: "2025",
+    title:
+      "The Interstellar Medium in I Zw 18 Seen with JWST/MIRI. I. Highly Ionized Gas",
+    venue: "ApJ 992, 48",
+    authors: "Hunt et al. (incl. Navarro, M.G.)",
+    href: "https://ui.adsabs.harvard.edu/abs/2025ApJ...992...48H",
+  },
+  {
+    year: "2025",
+    title:
+      "Mid-infrared Extinction Curve for Protostellar Envelopes from JWST-detected Embedded Jet Emission: The Case of TMC1A",
+    venue: "A&A 701, A175",
+    authors: "Assani et al. (incl. Navarro, M.G.)",
+    href: "https://ui.adsabs.harvard.edu/abs/2025A&A...701A.175A",
+  },
+  {
+    year: "2025",
+    title: "HDO Ice Detected toward an Isolated Low-mass Protostar with JWST",
+    venue: "ApJL 986, L19",
+    authors: "Slavicinska et al. (incl. Navarro, M.G.)",
+    href: "https://ui.adsabs.harvard.edu/abs/2025ApJ...986L..19S",
   },
   {
     year: "2024",
-    title: "Paper title goes here",
-    venue: "Journal / arXiv",
-    authors: "Navarro, M.G.; et al.",
-    href: "#",
+    title:
+      "JWST Observations of Young protoStars (JOYS): HH211",
+    venue: "A&A 691, A134",
+    authors: "Caratti o Garatti et al. (incl. Navarro, M.G.)",
+    href: "https://ui.adsabs.harvard.edu/abs/2024A&A...691A.134C",
+  },
+  {
+    year: "2024",
+    title:
+      "PROJECT-J: JWST Observations of HH46 IRS and Its Outflow",
+    venue: "ApJ 967, 168",
+    authors: "Nisini et al. (incl. Navarro, M.G.)",
+    href: "https://ui.adsabs.harvard.edu/abs/2024ApJ...967..168N",
+  },
+  {
+    year: "2024",
+    title:
+      "The VVVX ESO Public Survey: Completion of the Observations and Legacy",
+    venue: "A&A 689, A148",
+    authors: "Saito et al. (incl. Navarro, M.G.)",
+    href: "https://ui.adsabs.harvard.edu/abs/2024A&A...689A.148S",
+  },
+  {
+    year: "2023",
+    title:
+      "Globular Clusters in the Galactic Center Region",
+    venue: "A&A 674, A148",
+    authors: "Navarro et al.",
+    href: "https://ui.adsabs.harvard.edu/abs/2023A&A...674A.148N",
+  },
+  {
+    year: "2021",
+    title:
+      "The RR Lyrae Projected Density Distribution from the Galactic Centre to the Halo",
+    venue: "A&A 646, A45",
+    authors: "Navarro et al.",
+    href: "https://ui.adsabs.harvard.edu/abs/2021A&A...646A..45N",
+  },
+  {
+    year: "2020",
+    title:
+      "VVV Survey Microlensing: Catalog of Best and Forsaken Events",
+    venue: "ApJ 893, 65",
+    authors: "Navarro et al.",
+    href: "https://ui.adsabs.harvard.edu/abs/2020ApJ...893...65N",
+  },
+  {
+    year: "2018",
+    title:
+      "VVV Survey Microlensing: The Galactic Longitude Dependence",
+    venue: "ApJL 865, L5",
+    authors: "Navarro et al.",
+    href: "https://ui.adsabs.harvard.edu/abs/2018ApJ...865L...5N",
   },
 ];
+
+const PUB_METRICS = {
+  refereed: 23,        // <-- pon tus números reales
+  total: 0,
+  citations: 387,
+  hIndex: 13,
+  firstAuthor: 0,
+  sinceYear: 2017,
+};
+
 
 const TALKS = [
   {
@@ -198,10 +309,11 @@ function TopNav() {
     { id: "about", label: "About" },
     { id: "work", label: "Research" },
     { id: "pubs", label: "Publications" },
-    { id: "talks", label: "Talks" },
-    { id: "code", label: "Code" },
+    // { id: "talks", label: "Talks" },
+    // { id: "code", label: "Code" },
     { id: "contact", label: "Contact" },
   ];
+
   return (
     <div className="fixed inset-x-0 top-0 z-50">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
@@ -297,10 +409,12 @@ function Hero() {
             </p>
 
             <div className="mt-8 flex flex-wrap gap-2">
+              <Pill>INAF/OAR</Pill>
+              <Pill>Stellar Astrophysics</Pill>
               <Pill>JWST</Pill>
-              <Pill>Galactic Bulge</Pill>
+              <Pill>VVVX</Pill>
+              <Pill>KMOS</Pill>
               <Pill>Near-IR spectroscopy</Pill>
-              <Pill>Bayesian inference</Pill>
             </div>
 
             <div className="mt-10 flex flex-col sm:flex-row gap-3">
@@ -390,24 +504,24 @@ function About() {
       <div className="grid gap-6 lg:grid-cols-12">
         <div className="lg:col-span-7">
           <div className="rounded-3xl border border-white/10 bg-white/5 p-6 sm:p-7">
+
             <p className="text-white/75 leading-relaxed">
-              I am an astrophysicist working on the Milky Way and star-forming environments.
-              My research combines near-IR spectroscopy, multi-wavelength data integration,
-              and Bayesian inference to extract physical insight from complex, high-extinction
-              regions.
-            </p>
-            <p className="mt-4 text-white/75 leading-relaxed">
-              I build robust analysis pipelines (Python/Astropy) and focus on reproducible
-              results, clear documentation, and publication-quality visualization.
+              I am a Chilean astrophysicist working on stellar astrophysics across a broad range 
+              of environments. My research focuses on star and planet formation, protoplanetary 
+              disk evolution, and the role of environmental conditions in shaping these processes. 
+              I also investigate stellar populations in the Milky Way, including RR Lyrae stars 
+              and gravitational microlensing events aimed at identifying stellar-mass black holes. 
+              Much of my work is centered on high-extinction regions, where near-infrared 
+              observations are essential to unveil the underlying physical structure.
             </p>
 
-            <div className="mt-6 flex flex-wrap gap-2">
-              <Pill>INAF / OAR</Pill>
-              <Pill>JWST</Pill>
-              <Pill>VVVX</Pill>
-              <Pill>KMOS</Pill>
-              <Pill>Roman</Pill>
-            </div>
+            <p className="mt-4 text-white/75 leading-relaxed">
+              My research combines near-IR photometry and spectroscopy with multi-wavelength 
+              data integration to derive robust physical constraints in complex systems. I am 
+              actively involved in JWST observations (NIRSpec, MIRI, and NIRCam), serve as 
+              co-PI of the YSO area within the KMOS Large Program, and am an active member 
+              of the VVV/VVVX survey collaboration.
+            </p>
           </div>
         </div>
 
@@ -445,12 +559,14 @@ function About() {
 
 function Research() {
   return (
-    <Section id="work" eyebrow="Selected" title="Research & projects">
+    <Section id="work" eyebrow="Selected" title="Research & Projects">
       <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
         {FEATURED.map((p) => (
           <motion.a
             key={p.title}
             href={p.href}
+            target="_blank"
+            rel="noreferrer"
             whileHover={{ y: -4 }}
             transition={{ type: "spring", stiffness: 220, damping: 18 }}
             className="group rounded-3xl border border-white/10 bg-white/5 p-6 hover:bg-white/10 transition shadow-[0_20px_60px_-28px_rgba(0,0,0,0.8)]"
@@ -460,7 +576,7 @@ function Research() {
                 <div className="text-xs uppercase tracking-[0.2em] text-white/50">
                   {p.kind} • {p.year}
                 </div>
-                <div className="mt-2 text-lg font-semibold text-white group-hover:text-white transition">
+                <div className="mt-2 text-lg font-semibold text-white">
                   {p.title}
                 </div>
               </div>
@@ -469,23 +585,8 @@ function Research() {
             <p className="mt-3 text-sm text-white/70 leading-relaxed">
               {p.blurb}
             </p>
-            <div className="mt-4 flex flex-wrap gap-2">
-              {p.tags.map((t) => (
-                <Pill key={t}>{t}</Pill>
-              ))}
-            </div>
           </motion.a>
         ))}
-      </div>
-
-      <div className="mt-8 rounded-3xl border border-white/10 bg-black/20 p-6">
-        <div className="flex items-center gap-2 text-white/80">
-          <Search className="h-4 w-4" />
-          <span className="text-sm">
-            Want a “Projects” page with filtering and detailed case studies? I can extend
-            this into a multi-page site.
-          </span>
-        </div>
       </div>
     </Section>
   );
@@ -508,9 +609,6 @@ function Publications() {
     <Section id="pubs" eyebrow="Outputs" title="Publications">
       <div className="rounded-3xl border border-white/10 bg-white/5 p-5 sm:p-6">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-          <div className="text-sm text-white/70">
-            Add links to arXiv/DOI/ADS; keep it short and scannable.
-          </div>
           <div className="relative">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-white/40" />
             <input
@@ -522,27 +620,54 @@ function Publications() {
           </div>
         </div>
 
-        <div className="mt-5 grid gap-3">
+        <div className="mt-4 border-y border-white/10 py-3 text-sm text-white/60">
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-1 tracking-wide">
+            <span>
+              <span className="text-white font-semibold">23</span> refereed articles
+            </span>
+            <span className="text-white/30">|</span>
+            <span>
+              <span className="text-white font-semibold">26</span> total publications
+            </span>
+            <span className="text-white/30">|</span>
+            <span>
+              <span className="text-white font-semibold">387</span> citations
+            </span>
+            <span className="text-white/30">|</span>
+            <span>
+              h-index <span className="text-white font-semibold">13</span>
+            </span>
+          </div>
+        </div>
+
+        <div className="mt-5 divide-y divide-white/10 rounded-2xl border border-white/10 bg-black/20">
           {filtered.map((p) => (
             <a
               key={`${p.year}-${p.title}`}
               href={p.href}
-              className="group rounded-2xl border border-white/10 bg-black/20 p-4 hover:bg-white/10 transition"
+              target="_blank"
+              rel="noreferrer"
+              className="group flex items-start justify-between gap-4 px-4 py-3 hover:bg-white/10 transition"
             >
-              <div className="flex items-start justify-between gap-4">
-                <div>
-                  <div className="text-xs uppercase tracking-[0.2em] text-white/45">
-                    {p.year} • {p.venue}
-                  </div>
-                  <div className="mt-1 text-sm font-semibold text-white">
-                    {p.title}
-                  </div>
-                  <div className="mt-1 text-sm text-white/60">
-                    {p.authors}
-                  </div>
+              <div className="min-w-0">
+                <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                  <span className="text-[11px] uppercase tracking-[0.2em] text-white/45">
+                    {p.year}
+                  </span>
+                  <span className="text-[11px] text-white/45">•</span>
+                  <span className="text-[11px] text-white/55">{p.venue}</span>
                 </div>
-                <ArrowUpRight className="h-5 w-5 text-white/40 group-hover:text-white transition" />
+
+                <div className="mt-1 text-sm font-semibold text-white leading-snug">
+                  {p.title}
+                </div>
+
+                <div className="mt-0.5 text-xs text-white/60 leading-snug truncate">
+                  {p.authors}
+                </div>
               </div>
+
+              <ArrowUpRight className="mt-1 h-4 w-4 shrink-0 text-white/40 group-hover:text-white transition" />
             </a>
           ))}
         </div>
@@ -648,8 +773,7 @@ function CodeSection() {
 
       <div className="mt-7 rounded-3xl border border-white/10 bg-black/20 p-6">
         <div className="text-sm text-white/70">
-          If you want, I can add: a “Resources” page (datasets, scripts, notebooks), a
-          BibTeX export, and a mini blog for updates.
+            For research collaborations, proposal development, and institutional communication, please use the contact details below.
         </div>
       </div>
     </Section>
@@ -658,52 +782,29 @@ function CodeSection() {
 
 function Contact() {
   return (
-    <Section id="contact" eyebrow="Let’s talk" title="Contact">
+    <Section id="contact" title="Contact">
       <div className="grid gap-5 lg:grid-cols-12">
-        <div className="lg:col-span-7">
+        <div className="lg:col-span-12">            
           <div className="rounded-3xl border border-white/10 bg-white/5 p-6 sm:p-7">
             <div className="text-sm text-white/70 leading-relaxed">
-              The fastest way to reach me is by email. If you include a short summary of
-              your goal + timeline + relevant links, I can respond more efficiently.
+              For scientific collaborations, institutional matters, and project-related
+              inquiries, please use the contact details below.
             </div>
 
-            <div className="mt-6 flex flex-col sm:flex-row gap-3">
+            <div className="mt-6">
               <a
                 href={`mailto:${PROFILE.email}`}
-                className="inline-flex items-center justify-center gap-2 rounded-2xl bg-white px-5 py-3 text-sm font-medium text-black hover:opacity-90 transition"
+                className="inline-flex items-center gap-2 rounded-2xl bg-white px-5 py-3 text-sm font-medium text-black hover:opacity-90 transition"
               >
                 <Mail className="h-4 w-4" />
                 {PROFILE.email}
               </a>
-              <a
-                href={PROFILE.links.linkedin}
-                className="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-5 py-3 text-sm text-white/80 hover:text-white hover:bg-white/10 transition"
-              >
-                <Linkedin className="h-4 w-4" />
-                LinkedIn
-                <ArrowUpRight className="h-4 w-4 opacity-70" />
-              </a>
-              <a
-                href={PROFILE.links.github}
-                className="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-5 py-3 text-sm text-white/80 hover:text-white hover:bg-white/10 transition"
-              >
-                <Github className="h-4 w-4" />
-                GitHub
-                <ArrowUpRight className="h-4 w-4 opacity-70" />
-              </a>
             </div>
-          </div>
-        </div>
 
-        <div className="lg:col-span-5">
-          <div className="rounded-3xl border border-white/10 bg-white/5 p-6 sm:p-7">
-            <div className="text-sm font-semibold text-white">Footer note</div>
-            <p className="mt-3 text-sm text-white/70 leading-relaxed">
-              Consider adding: a headshot, a short “Press/Media” section, and a simple
-              license statement for code/data.
-            </p>
-            <div className="mt-5 text-xs text-white/45">
-              © {new Date().getFullYear()} {PROFILE.name}. All rights reserved.
+            <div className="mt-6 text-sm text-white/60 leading-relaxed">
+              INAF – Osservatorio Astronomico di Roma (OAR) <br />
+              Via Frascati 33 <br />
+              00078 Monte Porzio Catone (RM), Italy
             </div>
           </div>
         </div>
@@ -724,8 +825,8 @@ export default function PersonalWebsite() {
           <About />
           <Research />
           <Publications />
-          <TalksSection />
-          <CodeSection />
+          {/* <TalksSection /> */}
+          {/* <CodeSection /> */}
           <Contact />
         </div>
       </main>
